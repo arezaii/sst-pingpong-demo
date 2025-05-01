@@ -4,4 +4,6 @@
   "remoteEnv": {
     "PATH": "/opt/SST/14.1.0/bin:${containerEnv:PATH}"
   },
+  "postCreateCommand": "git submodule update --init --recursive"
+
 }
