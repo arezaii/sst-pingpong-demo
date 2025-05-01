@@ -1,4 +1,7 @@
 {
   "name": "SST",
-  "image": "arezaiihpe/sst:14.1.0"
+  "image": "arezaiihpe/sst:14.1.0",
+  "remoteEnv": {
+    "PATH": "/opt/SST/14.1.0/bin:${containerEnv:PATH}"
+  },
 }
